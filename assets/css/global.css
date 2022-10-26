@@ -1,0 +1,25 @@
+* {
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16D6FB;
+}
+
+.content {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #FFDE00;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
